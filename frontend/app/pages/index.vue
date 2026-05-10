@@ -74,3 +74,54 @@
     </section>
   </main>
 </template>
+
+
+<style scoped>
+    h1 {
+  margin-top: 0;
+  font-size: 34px;
+}
+
+h2 {
+  margin-top: 28px;
+  font-size: 26px;
+}
+
+h3 {
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+article {
+  padding: 18px;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+article p {
+  line-height: 1.6;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin-top: 18px;
+}
+</style>

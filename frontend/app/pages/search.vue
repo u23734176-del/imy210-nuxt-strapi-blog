@@ -69,3 +69,51 @@
     </section>
   </main>
 </template>
+
+<style scoped>
+    h1 {
+  margin-top: 0;
+  font-size: 34px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 16px 0 24px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+section {
+  margin-top: 20px;
+}
+
+article {
+  padding: 18px;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+article h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+article p {
+  line-height: 1.6;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin-top: 18px;
+}
+</style>

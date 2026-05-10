@@ -56,3 +56,53 @@ const renderedContent = computed(() => {
     </p>
   </main>
 </template>
+
+<style scoped >
+    article {
+  max-width: 800px;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 38px;
+  line-height: 1.2;
+}
+
+h2 {
+  margin-top: 28px;
+  font-size: 26px;
+}
+
+p {
+  line-height: 1.7;
+}
+
+section {
+  margin-top: 24px;
+}
+
+div :deep(h1),
+div :deep(h2),
+div :deep(h3) {
+  margin-top: 24px;
+}
+
+div :deep(p) {
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+div :deep(ul) {
+  padding-left: 24px;
+}
+
+div :deep(li) {
+  margin-bottom: 8px;
+}
+
+div :deep(blockquote) {
+  padding-left: 16px;
+  border-left: 4px solid #2563eb;
+  color: #555;
+}
+</style>
