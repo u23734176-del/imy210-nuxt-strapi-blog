@@ -8,14 +8,12 @@
   <div>
     <header>
       <h1>My Blog Website</h1>
-
+      
       <Navigation />
     </header>
-
     <NuxtPage />
   </div>
 </template>
-
 <style>
   * {
   box-sizing: border-box;
