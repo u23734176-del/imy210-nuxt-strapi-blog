@@ -32,9 +32,6 @@ const renderedContent = computed(() => {
 
 <template>
   <main>
-    <NuxtLink to="/">
-      Back to Home
-    </NuxtLink>
     <article v-if="post">
       <h1>{{ post.Title }}</h1>
       <p>
